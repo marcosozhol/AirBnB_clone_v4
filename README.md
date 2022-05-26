@@ -97,7 +97,7 @@ TestBaseModel class:
 * `def test_pep8_conformance_test_file_storage(self)` - Test that tests/test_models/test_file_storage.py conforms to PEP8
 * `def test_file_storage_module_docstring(self)` - Test for the file_storage.py module docstring
 * `def test_file_storage_class_docstring(self)` - Test for the FileStorage class docstring
-
+  
 [/test_models/test_place.py](/tests/test_models/test_place.py) - Contains the TestPlaceDoc class:
 * `def setUpClass(cls)` - Set up for the doc tests
 * `def test_pep8_conformance_place(self)` - Test that models/place.py conforms to PEP8.
@@ -157,9 +157,9 @@ No known bugs at this time.
 Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twitter.com/alexa_orrico)  
 Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)  
 Jhoan Zamora - [Github](https://github.com/jzamora5) / [Twitter](https://twitter.com/JhoanZamora10)  
-David Ovalle - [Github](https://github.com/Nukemenonai) / [Twitter](https://twitter.com/disartDave) 
-Marco Sozaro - [Github](https://github.com/marcosozhol) / [Twitter](https://twitter.com) 
-Oscar Bedat - [Github](https://github.com/Ouyei) / [Twitter](https://twitter.com/ouyei) 
+David Ovalle - [Github](https://github.com/Nukemenonai) / [Twitter](https://twitter.com/disartDave)
+Marco Sozaro - [Github](https://github.com/marcosozhol) / [Twitter](https://twitter.com)
+Oscar Bedat - [Github](https://github.com/Ouyei) / [Twitter](https://twitter.com/ouyei)	
 
 Second part of Airbnb: Joann Vuong
 ## License
