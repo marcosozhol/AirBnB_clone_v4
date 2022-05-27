@@ -35,7 +35,11 @@ def hbnb():
     places = storage.all(Place).values()
     places = sorted(places, key=lambda k: k.name)
 
+<<<<<<< HEAD
     return render_template('1-hbnb.html',
+=======
+    return render_template('0-hbnb.html',
+>>>>>>> 7f98b262d7c0f801346426841e7f62a4769cf4c9
                            states=st_ct,
                            amenities=amenities,
                            places=places,

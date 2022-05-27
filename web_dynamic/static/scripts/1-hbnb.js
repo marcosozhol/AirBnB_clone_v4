@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 $(document).ready(function () {
   const dict = {};
   const $amenitiesCheck = $('input[type=checkbox]');
@@ -13,3 +14,16 @@ $(document).ready(function () {
     }
   });
 });
+=======
+$('document').ready(function () {
+  let amenities = {};
+  $('INPUT[type="checkbox"]').change(function () {
+    if ($(this).is(':checked')) {
+      amenities[$(this).attr('data-id')];
+    } else {
+      delete amenities[$(this).attr('data-id')];
+    }
+    $('.amenities H4').text(Object.values(amenities).join(', '));
+  })
+})
+>>>>>>> 7f98b262d7c0f801346426841e7f62a4769cf4c9
