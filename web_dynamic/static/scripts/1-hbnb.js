@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+$(document).ready(function () {
+  const dict = {};
+  const $amenitiesCheck = $('input[type=checkbox]');
+  const $selectedAmenities = $('div.amenities h4');
+
+  $amenitiesCheck.click(function () {
+    if ($(this).is(':checked')) {
+      dict[$(this).data('id')] = $(this).data('name');
+      $selectedAmenities.text(Object.values(dict).join(', '));
+    } else if ($(this).is(':not(:checked)')) {
+      delete dict[$(this).data('id')];
+      $selectedAmenities.text(Object.values(dict).join(', '));
+    }
+  });
+});
+=======
 $('document').ready(function () {
   let amenities = {};
   $('INPUT[type="checkbox"]').change(function () {
@@ -8,4 +25,9 @@ $('document').ready(function () {
     }
     $('.amenities H4').text(Object.values(amenities).join(', '));
   })
+<<<<<<< HEAD
 });
+=======
+})
+>>>>>>> 7f98b262d7c0f801346426841e7f62a4769cf4c9
+>>>>>>> 6e0bfc670dcffae75f7b53a5242d109eb7979a62
