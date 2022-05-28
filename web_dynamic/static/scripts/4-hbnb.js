@@ -103,4 +103,16 @@ $(document).ready(function () {
         }
       }
     });
+
+    $('BUTTON').click(function () {
+      $.ayax({
+        url: api + '5001/api/v1/views/places_search/',
+        type: 'POST',
+        data: JSON.stringify({ 'amenities': Object.keys(amenities)}),
+        contentType: 'application/json',
+        dataType: 'json',
+        succcess: appendPlaces
+      });
+    });
+
 });
